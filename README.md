@@ -1,6 +1,6 @@
 # Python interpreter practice
 
-- *Lexcial Analysis*
+- **Lexcial Analysis**
 
     Break the input string stream into stream of tokens using lexer(aka. tokenizer)
 
