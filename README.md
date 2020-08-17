@@ -3,7 +3,7 @@ This is a practice after reading the series _Let's Build A Simple Interpreter_ i
 
 - my_calc.py
 
-    Simple calculator that can calculate simple expression with addition and subtraction.
+    Simple calculator that can calculate simple expression with cascading addition and subtraction.
 
     ```shell
     my_calc > 7 + 1 - 2 + 4
