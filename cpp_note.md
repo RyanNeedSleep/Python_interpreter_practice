@@ -72,8 +72,7 @@ Notice that you can also define constructor and member function for `struct` obj
 
 - Union
 
-The purpose of union is to save memory by using the same memory region for storing different objects at different times.
-
+The purpose of union is to save memory by using the same memory region for storing different objects at different times.\
 That is the same class might have some subtypes, which can effect the type of clas member it uses.
 
 ```cpp
@@ -117,8 +116,7 @@ void f(Entry* p){
     1. `enum class`
     2. plain `enum`
 
-In `enum class`, the variables are in a local scope of enum class.
-
+In `enum class`, the variables are in a local scope of enum class.\
 However, for plain `enum`,  those variables are in the same scope of `enum` name.
 
 ```cpp
