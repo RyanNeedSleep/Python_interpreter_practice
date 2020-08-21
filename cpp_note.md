@@ -118,6 +118,7 @@ void f(Entry* p){
     2. plain `enum`
 
 In `enum class`, the variables are in a local scope of enum class.
+
 However, for plain `enum`,  those variables are in the same scope of `enum` name.
 
 ```cpp
