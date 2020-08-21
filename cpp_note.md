@@ -82,7 +82,7 @@ struct Entry{
     Type t;
     char* s; // if type is str
     int i; // if type is num
-} 
+}; 
 
 void f(Entry* p ){
     if(p->t == str){
@@ -96,12 +96,12 @@ void f(Entry* p ){
 union Value{ // all member share the same memory space and does't exist at the same time
     char* s;
     int i;
-}
+};
 
 struct Entry{
     Type t;
     Value v;
-}
+};
 
 void f(Entry* p){
     if(p->t == str){
@@ -125,12 +125,12 @@ enum TrainLight{
     red,
     blue,
     pink
-}
+};
 enum TrafficLight{
     red,
     blue,
     pink
-}
+};
 
 // better use enum class
 // No error
@@ -138,11 +138,11 @@ enum TrainLight{
     red,
     blue,
     pink
-}
+};
 enum TrafficLight{
     red,
     blue,
     pink
-}
+};
 ```
 
