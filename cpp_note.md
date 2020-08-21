@@ -134,12 +134,12 @@ enum TrafficLight{
 
 // better use enum class
 // No error
-enum TrainLight{
+enum class TrainLight{
     red,
     blue,
     pink
 };
-enum TrafficLight{
+enum class TrafficLight{
     red,
     blue,
     pink
