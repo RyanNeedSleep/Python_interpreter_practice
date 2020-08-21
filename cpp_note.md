@@ -67,7 +67,7 @@ class Vector{
         // TODO
 }
 ```
-_A struct is simply a class with its members public by default_
+_A struct is simply a class with its members public by default_\
 Notice that you can also define constructor and member function for `struct` objects.
 
 - Union
